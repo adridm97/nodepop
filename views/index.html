@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <h1 id="titulo">NODEPOP</h1>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <ul>
+        <% anuncios.forEach(anuncios => { %>
+            <div class="container">
+                <li>
+                    <img id="img" src="<%=  anuncios.foto %>" alt="">
+                </li><br>
+                <div id="containerText">
+                    <li>
+                        <b><%= anuncios.precio %> Eur</b>
+                    </li>
+                    <br>
+                    <li>
+                        <%= anuncios.nombre %>
+                    </li>
+                    <li>
+                        Venta:
+                        <%= anuncios.venta %>
+                    </li>
+                    <li>
+                        Tags:
+                        <%= anuncios.tags %>
+                    </li>
+                </div>
+            </div>
+            <% }) %>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+    "anuncios": [{
+            "nombre": "Bicicleta",
+            "venta": true,
+            "precio": 100,
+            "foto": "/images/bici.jpg",
+            "tags": ["sport", "lifestyle"]
+        },
+        {
+            "nombre": "funda iPhone",
+            "venta": false,
+            "precio": 20,
+            "foto": "/images/funda.jpg",
+            "tags": ["mobile"]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+#titulo {
+    text-align: center;
+    font-size: 4rem;
+    background-color: forestgreen;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    width: 170px;
+    border: 1px solid black;
+}
+
+#img {
+    width: 100%;
+}
+
+#containerText {
+    border: 1px solid black;
+    margin: -1rem;
+    border-radius: 8px;
+    padding: 1rem;
+}
